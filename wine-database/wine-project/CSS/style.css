@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800
+}
+button {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height:auto
+}
+table {
+    text-align:center;
+    border: 1px solid black;
+    table-layout: fixed;
+    width: 1000px
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+    overflow: hidden
+}
+#Proprietary {
+    border: 1px solid black;
+    width: 150px;
+    overflow: hidden
+}
+
+#Varietals {
+        border: 1px solid black;
+        width: 250px;
+        overflow: hidden
+}
+.headings {
+    font-size:30px;
+    font-weight:800;
+    color: rgba(100,0,50, .7);
+    background-color: rgba(0,100,150,.2);
+}
+.odd {
+    background-color: rgba(247, 245, 221, 0.9)
+}
