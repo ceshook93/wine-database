@@ -11,7 +11,7 @@ h1 {
 }
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: center
   }
 
 p {
@@ -64,7 +64,7 @@ td {
 
 .bottom {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 .winepic {
     margin: 20px;
