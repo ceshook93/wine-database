@@ -61,11 +61,11 @@ td {
 .odd {
     background-color: rgba(247, 245, 221, 0.9)
 }
-
 .bottom {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
+
 .winepic {
     margin: 20px;
     border: 1px solid black;

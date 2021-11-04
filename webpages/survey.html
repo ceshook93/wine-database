@@ -3,8 +3,61 @@
     <head>
         <meta charset="utf-8">
         <title>Survey</title>
+        <link rel="stylesheet" href="../CSS/surveystyle.css"/>
     </head>
     <body>
-        <h1>What We Asked</h1>
+        <h1 class="header">What We Asked</h1>
+        <div class="intro">
+            <p> How do we find out what is important to our users? Of course, we try to look at the resources that guide your decision-making processes, look at the market to understand where your consumers are engaging with the product, but most importantly, we ask you!</p>
+        </div>
+        <div class="survey">
+            <form method="post" action="mailto:noemail@winedatabase.com" enctype="text/plain">
+                <ol>
+                    <li>What information is the most difficult for you to find when searching for wine?</li>
+                        <input type="checkbox" name="Region" value="Yes">Region<br>
+                        <input type="checkbox" name="Varietal" value="Yes">Varietal<br>
+                        <input type="checkbox" name="Flavor profile" value="Yes">Flavor Profile<br>
+                        <input type="checkbox" name="Alcohol Level" value="Yes">ABV<br>
+                        <input type="checkbox" name="Sweetness" value="Yes">Residual Sugar<br>
+                        <input type="checkbox" name="Consumer Reviews" value="Yes">Consumer Reviews<br>
+                        <input type="checkbox" name="Wine Critic Ratings" value="Yes">Wine Critic Ratings
+                     <li>What factors do you take into account when considering what wine to buy?</li>
+                        <input type="checkbox" name="Wholesale" value="Yes">Price<br>
+                        <input type="checkbox" name="Balance" value="Yes">Diversifying current inventory<br>
+                        <input type="checkbox" name="Request" value="Yes">What customers are asking for specifically<br>
+                        <input type="checkbox" name="Prefence" value="Yes">Personal preference<br>
+                        <input type="checkbox" name="Salesperson" value="Yes">Relationship with sales representative<br>
+                    <li> Where do you normally buy your wine and why?</li>
+                    <textarea name="where-why" rows="5" maxlength="300"></textarea>
+                    <li> Do you follow any wine-related newsletters or publications?</li>
+                        <input type="radio" name="yes/no" value="Yes">Yes<br>
+                        <input type="radio" name="yes/no" value="No">No<br>
+                        <ul>
+                            <li>If yes, which publications?</li>
+                            <textarea name="publications" rows="5" maxlength="300"></textarea>
+                        </ul>
+                        <li>On the sliding scale provided, please rank the following search criteria according to usefulness to your daily duties:</li>
+                            <ol>
+                                <li>Region</li>
+                                <div class="slider"><input type="range" name="region" min="1" max="10" step="1" value="4"></div>
+                                <li>Varietal</li>
+                                <div class="slider"><input type="range" name="varietal" min="1" max="10" step="1" value="4"></div>
+                                <li>Price</li>
+                                <div class="slider"><input type="range" name="price" min="1" max="10" step="1" value="4"></div>
+                                <li>Wine Critic Ratings</li>
+                                <div class="slider"><input type="range" name="ratings" min="1" max="10" step="1" value="4"></div>
+                                <li>Taste Profile</li>
+                                <div class="slider"><input type="range" name="taste" min="1" max="10" step="1" value="4"></div>
+                                <li>Sweetnees</li>
+                                <div class="slider"><input type="range" name="sugar" min="1" max="10" step="1" value="4"></div>
+                                <li>Alcohol Content</li>
+                                <div class="slider"><input type="range" name="ABV" min="1" max="10" step="1" value="4"></div>
+                            </ol>
+                            <li>What can we do to make this database more user-friendly and accessible?</li>
+                                <textarea name="accessible" rows="5" maxlength="300"></textarea>
+                        </ol>
+                <input type="submit" value="Submit"> <input type="reset" value="Clear">
+                </form>
+        </div>
     </body>
 </html>
