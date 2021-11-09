@@ -30,46 +30,16 @@ h2 {
     padding: 5px;
     background-color:rgba(252, 161, 207, 0.7);
 }
-
-.database {
-    flex: 1
+.descrip {
+    border: 2px solid rgba(100,0,50, 1.0);
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    flex: 1;
 }
-table {
-    text-align:center;
-    border: 1px solid black;
-    table-layout: fixed;
-    width: 900px;
-    margin: 20px 0px;
-}
-td {
-    border: 1px solid black;
-    width: 100px;
-    overflow: hidden
-}
-#Proprietary {
-    border: 1px solid black;
-    width: 190px;
-    overflow: hidden
-}
-
-#Varietals {
-        border: 1px solid black;
-        width: 245px;
-        overflow: hidden
-}
-#Vintage {
-    border: 1px solid black;
-    width: 115px;
-    overflow: hidden
-}
-.headings {
-    font-size:30px;
-    font-weight:800;
-    color: rgba(100,0,50, .7);
-    background-color: rgba(0,100,150,.2);
-}
-.odd {
-    background-color: rgba(247, 245, 221, 0.9)
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
 .bottomnavbar {
     background-color: rgba(100,0,50, .7);

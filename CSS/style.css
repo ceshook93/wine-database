@@ -1,4 +1,7 @@
 
+* {
+    color:  rgba(100,0,50, 1.0)
+}
 .wholepage {
     display: flex;
     flex-direction: column;
