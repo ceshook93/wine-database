@@ -1,73 +1,105 @@
-* {
-    background-color: rgba(255, 205, 230, 0.1);
+
+.wholepage {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    align-items: space-evenly;
+    font-family:Arial, Helvetica, sans-serif;
 }
 h1 {
     text-align: center;
 }
-.intro {
-    text-align: center;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.nav {
-  display: flex;
-  justify-content: center
-  }
 
-p {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 800
-}
-
-button {
-    background-color: rgba(75, 181, 235, 0.4);
-    color: rgb(17, 16, 16);
-    padding: 10px;
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-
-}
-
-table {
-    text-align:center;
-    border: 1px solid black;
-    table-layout: fixed;
-    width: 1000px;
-    margin-left: 20px
-}
-td {
-    border: 1px solid black;
-    width: 100px;
-    overflow: hidden
-}
-#Proprietary {
-    border: 1px solid black;
-    width: 150px;
-    overflow: hidden
-}
-
-#Varietals {
-        border: 1px solid black;
-        width: 250px;
-        overflow: hidden
-}
-.headings {
-    font-size:30px;
-    font-weight:800;
-    color: rgba(100,0,50, .7);
-    background-color: rgba(0,100,150,.2);
-}
-.odd {
-    background-color: rgba(247, 245, 221, 0.9)
-}
-.bottom {
+.main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.navbar {
+    background-color: rgba(100,0,50, .7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px;
+}
+.navbar div {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color:rgba(252, 161, 207, 0.7);
+}
+.panels {
+    display: flex;
+
+}
+.leftpanel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 30px;
+}
+.leftpanel p {
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 175px;
+    padding: 5px;
+    align-items: flex-start;
+    flex: 1;
+    background-color:rgba(252, 161, 207, 0.7);
+}
+.winepic1 {
+    margin-bottom: 20px;
+
 }
 
-.winepic {
+.centerpanel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: auto;
+}
+.centerpanel div {
+    margin: 5px 10px 0px 10px
+}
+#mainpic {
     margin: 20px;
-    border: 1px solid black;
-    padding: 0
+    padding: 0px;
+}
+.rightpanel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+.rightpanel p {
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 175px;
+    padding: 5px;
+    flex: 1;
+    align-items: flex-end;
+    background-color:rgba(252, 161, 207, 0.7);
+}
+}
+.winepic2 {
+    margin-bottom: 20px;
+
+}
+
+.bottomnavbar {
+    background-color: rgba(100,0,50, .7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px;
+}
+.bottomnavbar div {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color:rgba(252, 161, 207, 0.7);
 }

@@ -5,118 +5,40 @@
         <title>Wine Database</title>
         <link rel="stylesheet" href="CSS/style.css"/>
     </head>
-    <body>
-            <h1>The Wine Database Project</h1>
-            <div class="intro">
-                <p>
-                Welcome to our mini-wine database! As seen in this table, we have some basic searchable information provided here. 
-                </p>
+        <body>
+            <div class="wholepage">
+            <div class="main">
+                <h1 class="title">The Wine Findr</h1>
+                   <div class="navbar">
+                     <div><a href="webpages/survey.html">Survey Questions</a></div>
+                     <div><a href="webpages/audience.html">Who We're For</a></div>
+                     <div><a href="webpages/purpose.html">What We're For</a></div>
+                   </div>
             </div>
-            <hr>
-            <div class="nav">
-            <div class="b1"><button><a href="webpages/survey.html">Survey Questions</a></button></div>
-            <div class="b2"><button><a href="webpages/audience.html">Who We're For</a></button></div>
-            <div class="b3"> <button><a href="webpages/purpose.html">What We're For</a></button></div>
+        <div class="panels">
+            <div class="leftpanel">
+                <div class="winepic1"><img src="pictures/full-tumbler.jpg" alt="tumbler too full of wine" width="200px" height="150px" style="border: 2px solid rgba(100,0,50, 1.0)"></div>
+                <p>Wine Rating Info</p>
+                <div class="winepic1"><img src="pictures/italy-wine.jpg" alt="two wine glasses overlooking Mt Vesuvius" width="200px" height="auto" style="border: 2px solid rgba(100,0,50, 1.0)"></div>
+                <p>Vintage Info</p>
             </div>
-            <hr>
-    
-        <table>  
-            <tr class="headings">
-                <td>Winery</td>
-                <td id="Proprietary">Proprietary Name</td>
-                <td id="Varietals">Varietals</td>
-                <td>Vintage</td>
-                <td>Region</td>
-                <td>Sub-Region</td>
-                <td>Wine Color</td>
-                <td>Style</td>
-                <td>Rating</td>
-                <td>ABV</td>
-                <td>Price</td>
-            </tr>
-            <tr class="odd">
-                <td><a href="https://esclans.com/wp-content/uploads/2020/12/wa-2020-sheet.pdf"> Chateau D'Esclans</a></td>
-                <td>Whispering Angel</td>
-                <td>Blend: Grenache/Cinsault/Vermentino</td>
-                <td>2020</td>
-                <td>France</td>
-                <td>Provence</td>
-                <td>Rose</td>
-                <td>Still</td>
-                <td>92</td>
-                <td>13.5%</td>
-                <td>$23.99</td>
-            </tr>
-            <tr class="even">
-                <td><a href="https://pessimistwine.com/uploads/trade/2017-PESIMMIST.pdf">Daou</a></td>
-                <td>The Pessimist</td>
-                <td>Blend: Syrah/Petite Sirah/Zinfandel/Tannat</td>
-                <td>2017</td>
-                <td>California</td>
-                <td>Paso Robles</td>
-                <td>Red</td>
-                <td>Still</td>
-                <td>92</td>
-                <td>15.5%</td>
-                <td>$19.97</td>
-            </tr>
-            <tr class="odd">
-                <td><a href="https://www.wine.com/product/ruinart-brut-blanc-de-blancs/6128">Ruinart</a></td>
-                <td>Brut Blanc De Blancs</td>
-                <td>Chardonnay</td>
-                <td>NV</td>
-                <td>France</td>
-                <td>Champagne</td>
-                <td>White</td>
-                <td>Sparkling</td>
-                <td>93</td>
-                <td>12.5%</td>
-                <td>$89.99</td>
-            </tr>
-            <tr class="even">
-                <td><a href="https://eng.sograpevinhos.com/marcas/Sandeman/Sandeman%20Porto%20Tawny%2030%20Years%20Old.pdf">Sandeman</a></td>
-                <td>30 yr Tawny</td>
-                <td>Blend:Tinta Barroca; Tinta Roritz: Tinto Cao; Touriga Franca</td>
-                <td>NV</td>
-                <td>Portugal</td>
-                <td>Douro Valley</td>
-                <td>Amber</td>
-                <td>Fortified</td>
-                <td>94</td>
-                <td>20%</td>
-                <td>$109.99</td>
-            </tr>
-            <tr class="odd">
-                <td><a href="https://www.wine.com/product/kim-crawford-sauvignon-blanc-2019/564566">Kim Crawford</a></td>
-                <td>N/A</td>
-                <td>Sauvignon Blanc</td>
-                <td>2019</td>
-                <td>New Zealand</td>
-                <td>Marlborough</td>
-                <td>White</td>
-                <td>Still</td>
-                <td>91</td>
-                <td>13%</td>
-                <td>$15.99</td>
-            </tr>
-            <tr class ="even">
-                <td><a href="https://www.totalwine.com/wine/champagne-sparkling-wine/muscatmoscato/dasti/cupcake-moscato-dasti/p/114071750">Cupcake Vineyards</a></td>
-                <td>Cupcake</td>
-                <td>Moscato</td>
-                <td>NV</td>
-                <td>Italy</td>
-                <td>Piedmont</td>
-                <td>White</td>
-                <td>Sparkling</td>
-                <td>89</td>
-                <td>6%</td>
-                <td>$8.77</td>
-            </tr>
-        </table>
-    <div class="bottom">
-        <div class="winepic"><img src="pictures/full-tumbler.jpg" alt="tumbler too full of wine" width="200px" height="150px"></div>
-        <div class="winepic"><img src="pictures/italy-wine.jpg" alt="two wine glasses overlooking Mt Vesuvius" width="200px" height="auto"></div>
-        <div class="winepic"><img src="pictures/wine-tree.jpg" alt="wine glass full of sparkling rose" width="200px" height="auto"></div>
+            <div class="centerpanel">
+                <div id="mainpic"><a href="webpages/tablepage.html"><img src="pictures/mainpic.jpg" alt="Cheese board and Brundlmayer sparkling wine featured" width="400px" height="auto" style="border: 2px solid rgba(100,0,50, 1.0)"></a></div>
+                <div><p>Welcome to our mini-wine database! As seen in this table, we have some basic searchable information provided here.</p></div>
+            </div>
+            <div class="rightpanel">
+                <div class="winepic2"><img src="pictures/wine-tree.jpg" alt="wine glass full of sparkling rose" width="200px" height="auto" style="border: 2px solid rgba(100,0,50, 1.0)"></div>
+                <p>Varietal Info</p>
+                <div class="winepic2"><img src="pictures/wine-tree.jpg" alt="wine glass full of sparkling rose" width="200px" height="auto" style="border: 2px solid rgba(100,0,50, 1.0)"></div>
+                <p>Style Info</p>
+            </div>
+        </div>
+        <div class="bottomnavbar">
+            <div><a href="webpages/survey.html">Survey Questions</a></div>
+            <div><a href="webpages/audience.html">Who We're For</a></div>
+            <div><a href="webpages/purpose.html">What We're For</a></div>
+          </div>
     </div>
-    </body>
+        </body>
+    <body>          
 </html>

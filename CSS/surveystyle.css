@@ -10,11 +10,13 @@ body {
     color: rgb(100, 0, 80)
 }
 input[type=submit], input[type=reset] {
-    display: block;
-    margin: 0 auto;
     background-color: rgb(100, 0, 80);
     color: white;
     padding: 10px;
     font-size: larger;
 
+}
+.submitreset {
+    display: flex;
+    justify-content: center;
 }
