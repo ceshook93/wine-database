@@ -71,6 +71,22 @@ td {
 .odd {
     background-color: rgba(247, 245, 221, 0.9)
 }
+
+.future {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+}
+.text, .categories {
+    width: 400px;
+}
+.bottompics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .bottomnavbar {
     background-color: rgba(100,0,50, .7);
     display: flex;
